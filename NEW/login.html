@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+  
+    <form action="/login" method="post">
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" placeholder="Enter Username" required>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Enter Password" required>
+      <div class="checkbox-container">
+        <input type="checkbox" name="remember_me" id="remember_me">
+        <label for="remember_me">Remember Me</label>
+      </div>
+      <button type="submit">Log In</button>
+      <a href="#">Forgot Password?</a>
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In or Sign Up</title>
+  <link rel="stylesheet" href="main.css"> </head>
+  </head>
+<body id="login-page">
+  <div class="container-singin singup-heading">
+    <div class="form-wrapper"> <h2>Sing IN</h2>
+    <form action="/login" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="User Name"> <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Password" required> <br>
+      <button type="submit" class="singin-btn">Sign In</button>
+    </form>
+    </div>
+  </div>
+</body>
+</html> -->
